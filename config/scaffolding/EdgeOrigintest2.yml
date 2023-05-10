@@ -1,0 +1,13 @@
+version: "1.0"
+info:
+  scaffold: helloMessage
+  model: int-scaffold
+services:
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.286
+- serviceName: edge.origintest2.integrations:helloMessage
+  packages:
+  - name: EdgeOrigintest2
+    version: "1.0"
