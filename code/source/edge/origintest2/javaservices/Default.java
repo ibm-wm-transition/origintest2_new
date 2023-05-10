@@ -7,6 +7,8 @@ import com.wm.util.Values;
 import com.wm.app.b2b.server.Service;
 import com.wm.app.b2b.server.ServiceException;
 // --- <<IS-START-IMPORTS>> ---
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 // --- <<IS-END-IMPORTS>> ---
 
 public final class Default
@@ -30,6 +32,29 @@ public final class Default
 	{
 		// --- <<IS-START(testJavaService)>> ---
 		// @sigtype java 3.5
+		// [o] field:0:required ip
+		// [o] field:0:required hostname
+		// pipeline
+		
+		
+		
+		InetAddress ip;
+		String hostname = "UNKNOWN";
+		String ipStr = "UNKNOWN";
+		try {
+		    ip = InetAddress.getLocalHost();
+		    ipStr = ip.toString();
+		    hostname = ip.getHostName();
+		} catch (UnknownHostException e) {
+		    e.printStackTrace();
+		}
+		
+		// pipeline
+				IDataCursor pipelineCursor = pipeline.getCursor();
+				IDataUtil.put( pipelineCursor, "ip", ipStr );
+				IDataUtil.put( pipelineCursor, "hostname", hostname );
+				pipelineCursor.destroy();
+			
 		// --- <<IS-END>> ---
 
                 
