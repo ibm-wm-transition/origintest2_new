@@ -3,5 +3,13 @@
 <Values version="2.0">
   <value name="name">testJavaService</value>
   <value name="encodeutf8">true</value>
-  <null name="body"/>
+  <value name="body">Ly8gcGlwZWxpbmUNCg0KDQoNCkluZXRBZGRyZXNzIGlwOw0KU3RyaW5nIGhvc3RuYW1lID0gIlVO
+S05PV04iOw0KU3RyaW5nIGlwU3RyID0gIlVOS05PV04iOw0KdHJ5IHsNCiAgICBpcCA9IEluZXRB
+ZGRyZXNzLmdldExvY2FsSG9zdCgpOw0KICAgIGlwU3RyID0gaXAudG9TdHJpbmcoKTsNCiAgICBo
+b3N0bmFtZSA9IGlwLmdldEhvc3ROYW1lKCk7DQp9IGNhdGNoIChVbmtub3duSG9zdEV4Y2VwdGlv
+biBlKSB7DQogICAgZS5wcmludFN0YWNrVHJhY2UoKTsNCn0NCg0KLy8gcGlwZWxpbmUNCgkJSURh
+dGFDdXJzb3IgcGlwZWxpbmVDdXJzb3IgPSBwaXBlbGluZS5nZXRDdXJzb3IoKTsNCgkJSURhdGFV
+dGlsLnB1dCggcGlwZWxpbmVDdXJzb3IsICJpcCIsIGlwU3RyICk7DQoJCUlEYXRhVXRpbC5wdXQo
+IHBpcGVsaW5lQ3Vyc29yLCAiaG9zdG5hbWUiLCBob3N0bmFtZSApOw0KCQlwaXBlbGluZUN1cnNv
+ci5kZXN0cm95KCk7DQoJ</value>
 </Values>

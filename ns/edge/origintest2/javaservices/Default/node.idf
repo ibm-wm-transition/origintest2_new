@@ -7,4 +7,12 @@
   <value name="node_pkg">EdgeOrigintest2</value>
   <value name="is_public">false</value>
   <value name="encodeutf8">true</value>
+  <value name="shared"></value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>java.net.InetAddress</value>
+    <value>java.net.UnknownHostException</value>
+  </array>
 </Values>
